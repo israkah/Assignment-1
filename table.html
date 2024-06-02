@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+       
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+            height: 30px;
+        }
+        th {
+            background-color: #97FEED;
+            color: #DA0C81;
+            text-align: center;
+            padding: 10px;
+        }
+        td {
+            background-color: #DA0C81;
+            color: #97FEED;
+            text-align: center;
+            padding: 10px;
+        }
+        .special-cell {
+            background-color: rgb(25, 85, 52);
+            color: white;
+        }
+
+        header {
+            background-color: #DA0C81;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            width: 50px;
+        }
+        nav {
+		    background-color: #97FEED;
+            display: flex;
+        }
+        nav a {
+            color: #DA0C81;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+    
+
+
+    </style>
+</head>
+<header>
+    <img src="/facebook-logo.png" alt="Logo">
+    <h1>MY WEBSITE</h1>
+    <div>
+        <p>Sunday, 03 June 2024</p>
+        <input type="text" name="" id="" placeholder="Search Here..." style="border-radius: 1%; border: none;">
+        <input type="button" value="Go" style="border:none; border-radius: 3%;">
+    </div>
+    
+</header>
+<nav style=" display: flex;justify-content:space-around; text-font:large; height:30px; padding-top:8px">
+    <a href="/index.html"><b>Home</b></a>
+    <a href="/reg form.html"><b>Form</b></a>
+    <a href="/table.html"><b>Table</b></a>
+    <a href="/news portal.html"><b>News Portal</b></a>
+    <a href="/images.html"><b>Image</b></a>
+    <a href="/contact.html"><b>Contact</b></a>
+</nav>
+<body>
+
+<h1 style="text-align: center;">This is a sample Table</h1>
+<table>
+    <tr>
+        <th>Title 1</th>
+        <th>Title 2</th>
+        <th>Title 3</th>
+        <th>Title 4</th>
+        <th>Title 5</th>
+    </tr>
+    <tr>
+        <td>cell111</td>
+        <td>cell112</td>
+        <td>cell113</td>
+        <td>cell114</td>
+        <td>cell115</td>
+    </tr>
+    <tr>
+        <td>cell121</td>
+        <td>cell122</td>
+        <td rowspan="2" class="special-cell">cell123</td>
+        <td>cell124</td>
+        <td>cell125</td>
+    </tr>
+    <tr>
+        <td>cell131</td>
+        <td>cell132</td>
+        <td>cell134</td>
+        <td>cell135</td>
+    </tr>
+    <tr>
+        <td>cell141</td>
+        <td>cell142</td>
+        <td>cell143</td>
+        <td>cell144</td>
+        <td>cell145</td>
+    </tr>
+    <tr>
+        <td>cell151</td>
+        <td>cell152</td>
+        <td>cell153</td>
+        <td>cell154</td>
+        <td>cell155</td>
+    </tr>
+    <tr>
+        <td>cell161</td>
+        <td>cell162</td>
+        <td>cell163</td>
+        <td>cell164</td>
+        <td>cell165</td>
+    </tr>
+</table>
+
+</body>
+</html>

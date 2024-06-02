@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+   
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-section {
+            width: 50%;
+        }
+
+        .contact-info {
+            width: 40%;
+        }
+        header {
+            background-color: #DA0C81;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            width: 50px;
+        }
+        nav {
+		    background-color: #97FEED;
+            display: flex;
+        }
+        nav a {
+            color: #DA0C81;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <img src="/facebook-logo.png" alt="Logo">
+    <h1>MY WEBSITE</h1>
+    <div>
+        <p>Sunday, 03 June 2024</p>
+        <input type="text" name="" id="" placeholder="Search Here..." style="border-radius: 1%; border: none;">
+        <input type="button" value="Go" style="border:none; border-radius: 3%;">
+    </div>
+    
+  </header>
+  <nav style=" display: flex;justify-content:space-around; text-font:large; height:30px; padding-top:8px">
+    <a href="/index.html"><b>Home</b></a>
+    <a href="/reg form.html"><b>Form</b></a>
+    <a href="/table.html"><b>Table</b></a>
+    <a href="/news portal.html"><b>News Portal</b></a>
+    <a href="/images.html"><b>Image</b></a>
+    <a href="/contact.html"><b>Contact</b></a>
+  </nav>
+<body>
+
+<div class="container">
+    <div class="form-section">
+        <h2>Send us a message</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+ 
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Md.Israk Ahmmed</p>
+        <p>Barishal-4200</p>
+        <p>israk.cse8.bu@gmail.com</p>
+        <p>https://facebook.com/</p>
+        <p>01849906637</p>
+    </div>
+</div>
+
+</body>
+</html>
